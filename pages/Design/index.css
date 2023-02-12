@@ -1,0 +1,118 @@
+body {
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(101, 101, 101);
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+main {
+    width: 100%;
+}
+
+.feuerwerk-container {
+    width: fit-content;
+    margin: 0 auto
+}
+
+.feuerwerk-select-container {
+    width: fit-content;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.feuerwerk-select {
+    width: 6rem;
+    height: 6rem;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 1rem;
+    border-width: 0rem;
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.1);
+    color: rgb(101, 101, 101);
+}
+
+.feuerwerk-select:hover {
+    transform: scale(1.1);
+}
+
+.selected {
+    background-color: rgb(101, 101, 101);
+    color: #fff
+}
+
+.canvas-container {
+    width: 100%;
+    height: 20rem;
+}
+
+#feuerwerk-preview-canvas {
+    width: 100%;
+    height: 100%
+}
+
+.setup-container {
+    width: 80rem;
+    height: fit-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 1rem;
+    border-width: 0rem;
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.1);
+    margin: 2rem auto;
+}
+
+.setup-container > div {
+    width: 25;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(101, 101, 101);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#firecracker-setup-radius {
+    background: grey;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    width: 15rem;
+    height: 5rem;
+    cursor: pointer;
+    background-color: rgb(101, 101, 101);
+    border-radius: 1rem;
+    border-width: 0rem;
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.1);
+    margin: 2rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+button:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(101, 101, 101);
+    text-transform: uppercase;
+}
+
+button {
+    width: 20rem;
+    height: 10rem;
+    cursor: pointer;
+    background-color: rgb(101, 101, 101);
+    border-radius: 1rem;
+    border-width: 0rem;
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.1);
+    margin: 2rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    transform: scale(1.1);
+}

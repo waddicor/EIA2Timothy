@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feuerwerk Design</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Racketen Bauhaus</h1>
+    </header>
+    <main>
+        <section class="feuerwerk-container">
+            <div class="canvas-container">
+                <canvas id="feuerwerk-preview-canvas"></canvas>
+            </div>
+            <div class="feuerwerk-select-container">
+                <div class="feuerwerk-select" id="feuerwerk-1">Rakete 1</div>
+                <div class="feuerwerk-select" id="feuerwerk-2">Rakete 2</div>
+                <div class="feuerwerk-select" id="feuerwerk-3">Rakete 3</div>
+            </div>
+        </section>
+        <section class="setup-container">
+            <div>
+                <label>Größe des Explosionsradius</label>
+                <input type="range" min="10" max="100" id="firecracker-setup-radius">
+            </div>
+            <div>
+                <label>Anzahl der Partikel</label>
+                <input type="range" min="10" max="100" id="firecracker-setup-particel">
+            </div>
+            <div>
+                <label>Farbe 1</label>
+                <input type="color" min="10" max="100" id="firecracker-setup-color-primary">
+            </div>
+            <div>
+                <label>Farbe 2</label>
+                <input type="color" min="10" max="100" id="firecracker-setup-color-secondary">
+            </div>
+        </section>
+        <section class="button-container">
+            <button id="save-feuerwerk-button">Ausgewähltes Feuerwerk speichern</button>
+            <button id="reset-feuerwerk-button">Alle Feuerwerke zurücksetzten</button>
+            <a href="../Spiel/index.html" id="start-feuerwerk-button"><button>Feuerwerk starten</button></a>
+            <a href="../../index.html" id="menü-feuerwerk-button"><button>Feuerwerk Menü</button></a>
+        </section>
+
+
+    </main>
+    
+</body>
+</html>
