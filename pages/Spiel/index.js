@@ -17,7 +17,7 @@ var FeuerwerkNamespace;
     let fireworkSelectionDiv2 = document.getElementById("feuerwerk-2");
     let fireworkSelectionDiv3 = document.getElementById("feuerwerk-3");
     let selectedFeuerwerkButton = fireworkSelectionDiv1;
-    let serverUrl = "https://webuser.hs-furtwangen.de/~buckjosu/Database/";
+    let serverUrl = "https://webuser.hs-furtwangen.de/~waddicor/Database/";
     let feuerwerke = [
         {
             feuerwerkId: "feuerwerk-1",

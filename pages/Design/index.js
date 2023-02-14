@@ -25,7 +25,7 @@ var FeuerwerkNamespace;
     let centerHorizontal;
     let centerVertical;
     let selectedFeuerwerkButton = fireworkSelectionDiv1;
-    let serverUrl = "https://webuser.hs-furtwangen.de/~buckjosu/Database/";
+    let serverUrl = "https://webuser.hs-furtwangen.de/~waddicor/Database/";
     let feuerwerke = [
         {
             feuerwerkId: "feuerwerk-1",
